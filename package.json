@@ -1,0 +1,22 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.2",
+    "morpher-ru": "^0.1.1",
+    "natural": "^6.5.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "openweather-apis": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
